@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types'
+import './assets/css/contenedor.css';
 
 
 
-const Estudiante = ({nombre, edad, genero}) => (
+const Estudiante = ({nombre, edad, genero, url}) => (
 
     <div className="card">
         <div className="card-body">
@@ -14,6 +15,9 @@ const Estudiante = ({nombre, edad, genero}) => (
         <p className="card-text">Edad: {edad}</p>
         <p className="card-text">Genero: {genero}</p>
 
+        <img className="simpson" src={url} alt='Imagen del personaje'></img>
+
+
         </div>
     </div>
 )
@@ -21,13 +25,15 @@ const Estudiante = ({nombre, edad, genero}) => (
 Estudiante.propTypes = {
     nombre: PropTypes.string,
     edad: PropTypes.number,
-    genero: PropTypes.string
+    genero: PropTypes.string,
+    url: PropTypes.string
 }
 
 Estudiante.defaultProps = {
     nombre: "No tiene nombre",
     edad: "No tiene edad",
-    genero: "No tiene genero"
+    genero: "No tiene genero",
+    url: "No tiene imagen"
 }
 
 

@@ -1,0 +1,14 @@
+.simpson {
+    max-width: 250px; 
+    max-height: 250px;
+}
+h1{
+    text-align: center;
+}
+.simpsonT{
+    display:block;
+    margin:auto;
+    border-radius: 20px;
+    max-width: 250px; 
+    max-height: 250px;
+}

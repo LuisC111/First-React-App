@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import { Fragment } from 'react';
 /*
@@ -25,8 +25,6 @@ function App() {
 */
 
 const App = () => <>
-  <h1 className="tituloPrincipal">Nuevo titulo</h1>  
-<img src={logo} className="App-logo" alt="logo" />
 </>
 
 

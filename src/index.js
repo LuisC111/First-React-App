@@ -36,10 +36,10 @@ ReactDOM.render(
 
 ReactDOM.render(
   <React.StrictMode>
-    <Estudiante nombre = "Luis Carlos" edad = "17"/>
+    <Estudiante nombre = "Luis Carlos" edad = "17" genero = "Masculino"/>
   </React.StrictMode>,
   document.getElementById('estudiante')
-);
+)
 
 
 // If you want to start measuring performance in your app, pass a function

@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './reportWebVitals';
-import NuevoElemento from './NuevoElemento';
+//import NuevoElemento from './NuevoElemento';
 import HeaderComponent from './HeaderComponent';
 import FooterComponent from './FooterComponent';
-import Estudiante from './Estudiante';
+import Contenedor from './Contenedor';
 
 
 
@@ -36,9 +36,9 @@ ReactDOM.render(
 
 ReactDOM.render(
   <React.StrictMode>
-    <Estudiante nombre = "Luis Carlos" edad = "17" genero = "Masculino"/>
+    <Contenedor />
   </React.StrictMode>,
-  document.getElementById('estudiante')
+  document.getElementById('contenedor')
 )
 
 

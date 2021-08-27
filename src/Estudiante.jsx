@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 
+
+
 const Estudiante = ({nombre, edad, genero}) => (
 
     <div className="card">
@@ -23,7 +25,11 @@ Estudiante.propTypes = {
 }
 
 Estudiante.defaultProps = {
-    nombre: "No tiene nombre"
+    nombre: "No tiene nombre",
+    edad: "No tiene edad",
+    genero: "No tiene genero"
 }
+
+
 
 export default Estudiante;

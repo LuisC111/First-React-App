@@ -1,9 +1,11 @@
 import React from 'react';
 
+/*
 let estudiante = {
     nombre: "Maria",
     edad: 23
 }
+*/
 
 var color = "azul"
 

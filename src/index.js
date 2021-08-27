@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import NuevoElemento from './NuevoElemento';
 import HeaderComponent from './HeaderComponent';
 import FooterComponent from './FooterComponent';
+import Estudiante from './Estudiante';
+
 
 
 
@@ -34,11 +36,10 @@ ReactDOM.render(
 
 ReactDOM.render(
   <React.StrictMode>
-    <NuevoElemento />
+    <Estudiante nombre = "Luis Carlos" edad = "17"/>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('estudiante')
 );
-
 
 
 // If you want to start measuring performance in your app, pass a function

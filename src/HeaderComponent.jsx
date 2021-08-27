@@ -28,7 +28,6 @@ const HeaderComponent = () => (
       <div id="care">
         <button type="button" name="button" id="butn" onclick="myFunction2(this)">&#8981;</button>
         <div class="dropdown" id="dropdown">
-          <input type="text" name="search" placeholder="Buscar aqui.." id="searchabaleWidget"/>
           <span class="search-icon">&#8981;</span>
         </div>
       </div>

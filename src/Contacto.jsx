@@ -1,8 +1,7 @@
 import React from 'react';
-import Estudiante from './Estudiante';
 import Formulario from './Formulario';
 
-const Contener = () => (
+const Contacto = () => (
 
     <>
     {
@@ -13,4 +12,4 @@ const Contener = () => (
 
 )
 
-export default Contener;
+export default Contacto;

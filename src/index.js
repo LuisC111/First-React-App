@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import HeaderComponent from './HeaderComponent';
 import FooterComponent from './FooterComponent';
 import Contenedor from './Contenedor';
+import Contener from './Contener';
 
 
 
@@ -39,6 +40,13 @@ ReactDOM.render(
     <Contenedor />
   </React.StrictMode>,
   document.getElementById('contenedor')
+)
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Contener />
+  </React.StrictMode>,
+  document.getElementById('contener')
 )
 
 

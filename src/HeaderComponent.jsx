@@ -20,8 +20,8 @@ const HeaderComponent = () => (
         <div class="bar3"></div>
       </div>
       <ul class="navbar" id="navbar">
-        <li>	&#127968;&nbsp;Home</li>
-        <li>&#10068;&nbsp;Acerca de nosotros</li>
+        <a href="/"><li>	&#127968;&nbsp;Home</li></a>
+        <a href="../public/formulario.html"><li>&#10068;&nbsp;Simpsons</li></a>
         <li>&#128214;&nbsp;Portafolio</li>
         <li>&#9743;&nbsp;Contacto</li>
       </ul>

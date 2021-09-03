@@ -6,20 +6,16 @@ import './assets/FA/css/all.min.css';
 const FooterComponent = () => (
 <>
 
-
-
-     
-<div class="container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-      </a>
-      <span class="text-muted">© 2021 Company, Inc</span>
-    </div>
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="https://github.com/LuisC111#" class="nav-link px-2 text-muted">Acerca de nosotros</a></li>
+      <li class="nav-item"><a href="https://github.com/LuisC111" class="nav-link px-2 text-muted">Portafolio</a></li>
+      <li class="nav-item"><a href="https://github.com/LuisC111" class="nav-link px-2 text-muted">Contacto</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2021 Luis Carlos Martinez ❤️</p>
   </footer>
-</div>
 
-     
 </>
 )
 

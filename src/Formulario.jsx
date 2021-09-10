@@ -1,4 +1,7 @@
 import React , {Component} from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/FA/css/all.min.css';
+
 
 class Formulario extends Component {
   constructor(props) {
@@ -35,18 +38,20 @@ class Formulario extends Component {
     return (
       <div id="elemento">
         <h1>Formulario</h1>
+        <center>
         <form action="">
-          <label htmlFor="">Nombre</label><br />
+        <br /><label htmlFor="">Nombre</label><br />
           <input type="text" name="nombre" onChange={ this.cambiarNombre } /><br />
           <label htmlFor="">Apellido</label><br />
           <input type="text" name="apellido" onChange={ this.cambiarApellido } /><br />
 
-          <input type="submit" value="enviar" /><br />
+          <br /><input type="submit" value="Enviar" /><br />
         </form>
+        </center>
         <br />
         <br />
         <h3>{ `Nombre: ${this.state.nombre}` }</h3>
-        <h3>{ `Nombre: ${this.state.apellido}` }</h3>
+        <h3>{ `Apellido: ${this.state.apellido}` }</h3>
 
       </div>
     )

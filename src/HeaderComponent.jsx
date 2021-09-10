@@ -23,10 +23,9 @@ const HeaderComponent = () => (
       </div>
       <ul class="navbar" id="navbar">
         <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/estudiantes">Estudiantes</NavLink></li>
-        <li><NavLink to="/contacto">Contacto</NavLink></li>
+        <li><NavLink to="/estudiantes">Simpsons</NavLink></li>
+        <li><NavLink to="/contacto">&#9743;&nbsp;Contacto</NavLink></li>
 
-        <li>&#9743;&nbsp;Contacto</li>
       </ul>
       <div id="care">
         <button type="button" name="button" id="butn" onclick="myFunction2(this)">&#8981;</button>

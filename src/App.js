@@ -6,6 +6,8 @@ import Contacto from './Contacto'
 import Header from './HeaderComponent'
 import EstudianteDetalle from './EstudianteDetalle'
 import MainMenu from './MainMenu';
+import Mal from './Error';
+import Footer from './FooterComponent';
 
 const App = () => (
 
@@ -17,11 +19,11 @@ const App = () => (
 <Route path="/estudiantes" exact component={ Contenedor } />
 <Route path="/estudiantes/:id" exact component={ EstudianteDetalle } />
 <Route path="/contacto" exact component={ Contacto } />
-<Route component={() => ( 
-<h1>Página no encontrada</h1> 
-    )} />
+<Route path="*" component={ Mal } />
 
 </Switch>
+<Footer />
+
 </Router>
 
 )

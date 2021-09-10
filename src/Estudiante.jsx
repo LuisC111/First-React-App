@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 import './assets/css/contenedor.css';
+import { Link } from 'react-router-dom'
 
 
 
-const Estudiante = ({nombre, edad, genero, url}) => (
+const Estudiante = ({nombre, edad, genero, url, id}) => (
 
     <div className="card">
         <div className="card-body">
@@ -14,6 +15,7 @@ const Estudiante = ({nombre, edad, genero, url}) => (
         </h5>
         <p className="card-text">Edad: {edad}</p>
         <p className="card-text">Genero: {genero}</p>
+        <p><Link to={ `/estudiantes/${id}` }>Detalle</Link></p>
 
         <img className="simpson" src={url} alt='Imagen del personaje'></img>
 

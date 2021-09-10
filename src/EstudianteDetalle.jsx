@@ -1,5 +1,4 @@
-import React from 'react';
-import Estudiante from './Estudiante';
+import React from "react";
 
 const estudiantes = [
     {
@@ -63,18 +62,31 @@ const estudiantes = [
 
 ]
 
+const EstudianteDetalle = ({match}) => {
+    const estudiante = estudiantes.filter(c => c.id === parseInt(match.params.id))[0];
 
+    return(
+        <>
+            {
+                estudiante ? (
+                    <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">
+                                {estudiante.nombre}
+                            </h5>
+                            <p className="card-text">Edad: {estudiante.edad}.</p>
+                            <p className="card-text">Genero: {estudiante.genero}.</p>
+                            <p className="card-text">Grado: {estudiante.grado}.</p>
+                            <img className="simpson" src={estudiante.url} alt='Imagen del personaje'></img>
 
-const Contenedor = () => (
+                        </div>
+                    </div>
+                ):
+                <h1>El Id no esta registrado.</h1>
+            }
+            <a href={`/estudiantes`}>Ver todos</a>
+        </>
+    );
+};
 
-    <>
-    <h1>Los simpsons</h1>
-    <img className="simpsonT" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/los-simpson-1564565325.jpg" alt="Serie"></img>
-    {
-        estudiantes.map ( c => <Estudiante nombre = { c.nombre } edad = { c.edad } genero = { c.genero } url = {c.url} id = {c.id} /> )
-    }
-    </>
-
-)
-
-export default Contenedor;
+export default EstudianteDetalle;

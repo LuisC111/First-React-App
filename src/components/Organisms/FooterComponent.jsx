@@ -1,6 +1,6 @@
 import React from 'react';
-import './assets/css/footer.css'
-import './assets/FA/css/all.min.css';
+import '../../assets/css/footer.css'
+import '../../assets/FA/css/all.min.css';
 
 
 const FooterComponent = () => (

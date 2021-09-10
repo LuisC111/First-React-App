@@ -1,5 +1,5 @@
 import React from 'react';
-import App from './App.js'
+import App from './components/Routes/App.js'
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 //import NuevoElemento from './NuevoElemento';

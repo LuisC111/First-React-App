@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+import logo from '../../logo.svg';
 import React from 'react';
-import './assets/css/head.css';
-import './assets/FA/css/all.min.css';
+import '../../assets/css/head.css';
+import '../../assets/FA/css/all.min.css';
 import { NavLink } from 'react-router-dom';
 
 
@@ -11,8 +11,8 @@ const HeaderComponent = () => (
 
 <header>
 
-<link rel="stylesheet" href="assets/FA/css/all.min.css"/>
-    <link rel="stylesheet" href="assets/css/head.css"/>
+<link rel="stylesheet" href="../../assets/FA/css/all.min.css"/>
+    <link rel="stylesheet" href="../../assets/css/head.css"/>
       <div class="testLogo">
           <img src={logo} alt="LOGO" width="100" height="50" />
       </div>

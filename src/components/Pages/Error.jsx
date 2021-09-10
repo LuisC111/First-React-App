@@ -1,6 +1,6 @@
 import React from 'react'
-import css from './assets/css/error.css';
-import logo from './assets/images/404.svg'
+import css from '../../assets/css/error.css';
+import logo from '../../assets/images/404.svg'
 
 const Error = () => (
 
@@ -9,7 +9,7 @@ const Error = () => (
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Error 404 - Page Not Found!</title>
     <link rel="stylesheet" type="text/css" href={css} />
-    <link href="./assets/images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="../../assets/images/favicon.png" rel="shortcut icon" type="image/x-icon" />
 </head>
 
 <body><center>

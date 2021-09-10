@@ -1,13 +1,13 @@
 //import logo from './logo.svg';
-import './App.css';
+import '../../assets/css/App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import Contenedor from './Contenedor'
-import Contacto from './Contacto'
-import Header from './HeaderComponent'
-import EstudianteDetalle from './EstudianteDetalle'
-import MainMenu from './MainMenu';
-import Mal from './Error';
-import Footer from './FooterComponent';
+import Contenedor from '../Molecules/Contenedor'
+import Contacto from '../Molecules/Contacto'
+import Header from '../Organisms/HeaderComponent'
+import EstudianteDetalle from '../Pages/EstudianteDetalle'
+import MainMenu from '../Pages/MainMenu';
+import Mal from '../Pages/Error';
+import Footer from '../Organisms/FooterComponent';
 
 const App = () => (
 

@@ -1,6 +1,6 @@
 import React , {Component} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './assets/FA/css/all.min.css';
+import '../../assets/FA/css/all.min.css';
 
 
 class Formulario extends Component {

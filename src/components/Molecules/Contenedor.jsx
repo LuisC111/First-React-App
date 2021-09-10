@@ -1,5 +1,5 @@
 import React from 'react';
-import Estudiante from './Estudiante';
+import Estudiante from '../Pages/Estudiante';
 
 const estudiantes = [
     {

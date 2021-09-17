@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 
 const Estudiante = ({nombre, edad, genero, url, grado, id}) => (
 
+    <>
     <div className="card">
         <div className="card-body">
 
@@ -21,9 +22,17 @@ const Estudiante = ({nombre, edad, genero, url, grado, id}) => (
         <img className="simpson" src={url} alt='Imagen del personaje'></img>
 
 
+
         </div>
     </div>
+
+    
+    </>
 )
+
+
+
+
 
 Estudiante.propTypes = {
     nombre: PropTypes.string,

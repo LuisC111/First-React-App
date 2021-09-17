@@ -72,7 +72,13 @@ const Contenedor = () => (
     <img className="simpsonT" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/los-simpson-1564565325.jpg" alt="Serie"></img>
     {
         estudiantes.map ( c => <Estudiante nombre = { c.nombre } edad = { c.edad } genero = { c.genero } url = {c.url} id = {c.id} grado = {c.grado} /> )
-    }
+   
+   
+   
+   }
+
+
+
     </>
 
 )

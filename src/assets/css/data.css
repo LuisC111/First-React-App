@@ -1,0 +1,13 @@
+.contendor{
+    width: 100%;
+    height: auto;
+    display: flex !important; 
+    flex-wrap: wrap
+}
+.contendedor .krd{
+    width: 17rem;
+}
+.contendere{
+    display:block;
+    margin:auto;
+}

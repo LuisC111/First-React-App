@@ -20,21 +20,28 @@ const HeaderComponent = () => (
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
+
       </div>
       <ul class="navbar" id="navbar">
-        <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/estudiantes">Simpsons</NavLink></li>
-        <li><NavLink to="/contacto">&#9743;&nbsp;Contacto</NavLink></li>
-        <li><NavLink to="/datos_api">Datos Api</NavLink></li>
+        <li><NavLink to="/">&#9750;&nbsp;Home</NavLink></li>
+        <li><NavLink to="/simpsons_api">&#9731;&nbsp;Simpsons Api</NavLink>
+        <ul>
+            <li><NavLink to="/estudiantes">&#128444;&nbsp;Simpsons Arreglo</NavLink></li>
+          </ul>
+        </li>
+        <li><NavLink to="/contacto">&#9993;&nbsp;Contacto</NavLink></li>
+        <li><NavLink to="/datos_api">&#9729;&nbsp;Datos Api</NavLink>
+        <ul>
+            <li><NavLink to="/estudiantes">&#128444;&nbsp;Simpsons Arreglo</NavLink></li>
+          </ul>
+
+        </li>
+
 
       </ul>
       <div id="care">
-        <button type="button" name="button" id="butn" >&#8981;</button>
-        <div class="dropdown" id="dropdown">
-        <input type="text" id="formulario" class="busqueda"/>
+      <NavLink to="/crud">&#9729;&nbsp;Crud</NavLink>
 
-          <span class="search-icon" id="boton">&#8981;</span>
-        </div>
       </div>
     </header>
     </>

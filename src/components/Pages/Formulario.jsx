@@ -1,6 +1,7 @@
 import React , {Component} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../assets/FA/css/all.min.css';
+import '../../assets/css/home.css';
 
 
 class Formulario extends Component {
@@ -36,7 +37,12 @@ class Formulario extends Component {
 
   render() {
     return (
+      <>
+      <body class="hb">
+        
       <div id="elemento">
+      <br/><br/><br/>
+
         <h1>Formulario</h1>
         <center>
         <form action="">
@@ -54,6 +60,9 @@ class Formulario extends Component {
         <h3>{ `Apellido: ${this.state.apellido}` }</h3>
 
       </div>
+      <br/><br/><br/><br/><br/><br/><br/>
+      </body>
+</>
     )
   }
 

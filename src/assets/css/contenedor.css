@@ -1,6 +1,16 @@
+.sb{
+    background-color: rgb(99, 99, 99);
+}
+
 .simpson {
     max-width: 250px; 
     max-height: 250px;
+}
+.simpsonApi{
+    max-width: 250px; 
+    max-height: 250px;
+    display:block;
+    margin:auto;
 }
 h1{
     text-align: center;

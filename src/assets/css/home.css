@@ -1,0 +1,43 @@
+
+ .hb {
+    font-family: 'Raleway', sans-serif !important;
+    background: url("https://s3-us-west-2.amazonaws.com/files.bradengelhardt.com/brad-bg-main.jpg") no-repeat;
+    background-size: cover;
+  }
+
+
+  a {
+    text-decoration: none !important;
+  }
+
+  h1 {
+    color: #337ab7;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 20px;
+    color: #484848;
+  }
+
+  .bl{
+    color: white;
+    font-size: 40px;
+
+  }
+
+  .cont{
+    text-align: center;
+    padding-top: 200px;
+    display: block;
+    margin:auto;
+  }
+
+  .colo{
+    color: #337ab7;
+  }
+
+  .cr{
+    font-size: 40px;
+    color: #61dafb;
+  }
